@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Games
 BuildArch:	noarch
 Source0:	http://dl.sourceforge.net/lgeneral/%{name}-%{version}.tar.gz
+# Source0-md5:	82b3e5d23e5770f7b16861dfac39f843
 Patch0:		%{name}-inst_dir.patch
 Patch1:		%{name}-directories.patch
 URL:		http://lgames.sourceforge.net/
