@@ -1,0 +1,14 @@
+diff -durN lgeneral-data-1.1.2.orig/data/Makefile.am lgeneral-data-1.1.2/data/Makefile.am
+--- lgeneral-data-1.1.2.orig/data/Makefile.am	Sun Jul 14 16:24:29 2002
++++ lgeneral-data-1.1.2/data/Makefile.am	Tue Jul 30 15:35:08 2002
+@@ -77,6 +77,10 @@
+ 	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/maps/pg
+ 	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/scenarios/pg
+ 	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/gfx/terrain/pg
++	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/gfx/units
++	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/gfx/flags
++	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/units
++	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/nations
+ 	$(INSTALL_DATA) units/pg.udb  $(DESTDIR)$(inst_dir)/units/pg.udb
+ 	$(INSTALL_DATA) nations/pg.ndb  $(DESTDIR)$(inst_dir)/nations/pg.ndb
+ 	$(INSTALL_DATA) maps/pg.tdb  $(DESTDIR)$(inst_dir)/maps/pg.tdb
