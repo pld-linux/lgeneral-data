@@ -5,6 +5,7 @@ Version:	1.1.2
 Release:	1
 License:	GPL
 Group:		Applications/Games
+BuildArch:	noarch
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/lgeneral/%{name}-%{version}.tar.gz
 Patch0:		%{name}-inst_dir.patch
 Patch1:		%{name}-directories.patch
