@@ -30,11 +30,11 @@ Ten pakiet zawiera pliki z danymi dla tej gry.
 %patch1 -p1
 
 %build
-aclocal
+rm -f missing
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
-
 %{__make}
 
 %install
