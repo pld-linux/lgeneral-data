@@ -1,13 +1,13 @@
 Summary:	LGeneral game - data files
 Summary(pl):	Gra Linux General - pliki z danymi
 Name:		lgeneral-data
-Version:	1.1.2
+Version:	1.1.3
 Release:	1
 License:	GPL
 Group:		Applications/Games
 BuildArch:	noarch
 Source0:	http://dl.sourceforge.net/lgeneral/%{name}-%{version}.tar.gz
-# Source0-md5:	82b3e5d23e5770f7b16861dfac39f843
+# Source0-md5:	786feb83f163834a22e3e85e1970145f
 Patch0:		%{name}-inst_dir.patch
 Patch1:		%{name}-directories.patch
 URL:		http://lgames.sourceforge.net/
@@ -46,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS README
+%doc AUTHORS README ChangeLog
 %{_datadir}/lgeneral/gfx/*/*
 %{_datadir}/lgeneral/maps/*
 %{_datadir}/lgeneral/nations/*
