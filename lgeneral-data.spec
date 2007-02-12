@@ -1,5 +1,5 @@
 Summary:	LGeneral game - data files
-Summary(pl):	Gra Linux General - pliki z danymi
+Summary(pl.UTF-8):   Gra Linux General - pliki z danymi
 Name:		lgeneral-data
 Version:	1.1.3
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 LGeneral is a turn-based strategy engine heavily inspired by Panzer
 General. This package contains data files for the game.
 
-%description -l pl
-LGeneral jest turow± gr± strategiczn± zainspirowan± o Panzer General.
+%description -l pl.UTF-8
+LGeneral jest turowÄ… grÄ… strategicznÄ… zainspirowanÄ… o Panzer General.
 Ten pakiet zawiera pliki z danymi dla tej gry.
 
 %prep
