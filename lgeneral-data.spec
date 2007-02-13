@@ -1,5 +1,5 @@
 Summary:	LGeneral game - data files
-Summary(pl.UTF-8):   Gra Linux General - pliki z danymi
+Summary(pl.UTF-8):	Gra Linux General - pliki z danymi
 Name:		lgeneral-data
 Version:	1.1.3
 Release:	1
