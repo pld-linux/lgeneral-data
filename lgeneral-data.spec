@@ -9,7 +9,7 @@ Source0:	http://downloads.sourceforge.net/lgeneral/%{name}-%{version}.tar.gz
 # Source0-md5:	786feb83f163834a22e3e85e1970145f
 Patch0:		%{name}-inst_dir.patch
 Patch1:		%{name}-directories.patch
-URL:		http://lgames.sourceforge.net/
+URL:		http://lgames.sourceforge.net/LGeneral
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildArch:	noarch
